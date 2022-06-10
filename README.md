@@ -23,8 +23,6 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Camera } from 'expo-camera'
 import React, { useState, useEffect } from 'react'
 import { Tensorflow } from './components/Tensorflow'
-
 import { cameraWithTensors } from "@tensorflow/tfjs-react-native"
 import * as ts from '@tensorflow/tfjs'
 import * as mobilenet from '@tensorflow-models/mobilenet'
-import React, { useEffect, useState } from 'react'
